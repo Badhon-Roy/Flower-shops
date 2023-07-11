@@ -61,6 +61,8 @@ section{
     border: none;
     border-radius: 5px;
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 .manu-sec .nav-btn-2{
     background-color: rgb(0, 68, 255);
@@ -69,6 +71,8 @@ section{
     border: none;
     border-radius: 5px;
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 .main-banner-section {
     background-color:#E554731A ;
@@ -105,6 +109,10 @@ section{
     width: 635px;
     height: 800px;
 }
+/*banner section end */
+
+
+/* featured-flowers-section start */
 .featured-flowers-section{
     text-align: center;
 }
@@ -145,3 +153,102 @@ section{
     width: 400px;
     height: 420px;
 }
+/* featured-flowers-section end */
+
+
+
+/* hot-deal-section start */
+.hot-deal-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    width: 100%;
+}
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-deal-img{
+    width: 300px;
+    margin-top: 100px;
+}
+/* hot-deal-section end */
+
+
+
+/* instagram-section start */
+.instagram-section{
+    text-align: center;
+}
+.instagram-img{
+    width: 330px ;
+    height: 350px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/* instagram-section end */
+
+
+
+/* latest-deals-section start */
+.latest-deals-section{
+    height: 440px;
+    width: 1270px;
+    background-image: url(asset/Rectangle\ 9.png);
+    background-size: cover;
+    text-align: center;
+}
+.latest-deal-text{
+    padding-top: 100px;
+}
+.latest-deal-btn input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 4px 4px 8px rgb(57, 59, 61);
+    margin-right: 10px;
+}
+.latest-deal-btn button{
+    padding: 14px 25px ;
+    border: none;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+/* latest-deals-section end */
+
+
+
+/* footer section start */
+footer{
+    background-color: black;
+    width: 100%;
+    height:440px;
+    text-align: center;
+}
+.footer-sec{
+    padding-top: 100px;
+}
+.footer-sec h2{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+}
+.footer-sec p{
+    color: #FFF;
+    max-width: 500px;
+    margin: auto;
+}
+/* footer section end */
