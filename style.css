@@ -221,8 +221,8 @@ section{
     text-align: center;
 }
 .instagram-img{
-    width: 330px ;
-    height: 350px;
+    width: 342px;
+    height: 396px;
     gap: 20px;
     display: flex;
     justify-content: space-between;
@@ -233,8 +233,10 @@ section{
 
 /* latest-deals-section start */
 .latest-deals-section{
-    height: 440px;
-    width: 1270px;
+    /* height: 440px;
+    width: 1270px; */
+    width: 1440px;
+    height: 449px;
     background-image: url(asset/Rectangle\ 9.png);
     background-size: cover;
     text-align: center;
