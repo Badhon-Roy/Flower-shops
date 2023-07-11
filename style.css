@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Global style */
+.container{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.paragrap{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+section{
+    margin-bottom: 100px;
+}
+
+
+
+
+/*banner section start */
+.main-navbar{
+    background-color: #E55473;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+.logo-sec a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.manu-sec ul{
+    display: flex;
+    align-items: center;
+}
+.manu-sec ul li{
+    list-style: none;
+    margin-right: 15px;
+
+}
+.manu-sec ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.manu-sec .nav-btn-1{
+    background-color: rgb(119, 0, 255);
+    padding: 10px 25px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.manu-sec .nav-btn-2{
+    background-color: rgb(0, 68, 255);
+    padding: 10px 25px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.main-banner-section {
+    background-color:#E554731A ;
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.banner-section h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-section button , .hot-deal-text button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    
+
+}
+.banner-section button a , .hot-deal-text a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+}
+.featured-flowers-section{
+    text-align: center;
+}
+.featured-flowers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.featured-flowers img{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+}
+.featured-flowers p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.featured-flower-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 400px;
+    height: 420px;
+}
+.featured-flower-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 400px;
+    height: 420px;
+}
+.featured-flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 400px;
+    height: 420px;
+}
